@@ -1,0 +1,166 @@
+/*** BASE STYLES ***/
+body {
+    background-color: rgba(255, 204, 102, .2);
+    width: 100%;
+}
+
+/*** GRID ***/
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 33%;
+    float: left;
+}
+
+/*** HEADER ***/
+header {
+    font-family: 'Roboto', sans-serif;
+    height: 800px;
+}
+
+header h1 {
+    color: #999966;
+    font-size: 24pt;
+    padding-left: 40px;
+}
+
+header span {
+    color: darkgrey;
+}
+
+nav {
+    float: right;
+    padding-top: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #999966;
+    font-size: 18px;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+header img {
+    width: 100%;
+}
+
+header h2 {
+    clear: both;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 48px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    width: 600px;
+}
+
+header h2 span {
+    color: #ffcc66;
+}
+
+/*** MAIN ***/
+main {
+    padding: 0 100px;
+}
+
+main h1 {
+    color: #999966;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/*** PORTFOLIO ***/
+#portfolio img {
+    height: 350px;
+    width: 550px;
+    padding-bottom: 50px;
+}
+
+#project-1 #project-3 {
+    text-align: left;
+}
+
+#project-2 {
+    clear: both;
+    text-align: right;
+}
+
+#portfolio h2 {
+    padding-left: 50px;
+}
+
+#portfolio h3 {
+    padding-left: 50px;
+}
+
+#portfolio p {
+    padding-left: 50px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/*** ABOUT ***/
+#about {
+    clear: both;
+    background-image: url("../img/about-me.png");
+    height: 550px;
+}
+
+#about p {
+    padding: 0 100px;
+    width: 600px;
+}
+
+#about span {
+    font-weight: bold;
+}
+
+/*** CONTACT ***/
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+}
+
+#contact p {
+    line-height: 24px;
+}
+
+#contact #icon-1 #icon-2 #icon-3 img {
+    height: 50px;
+    width: 50px;
+}
+
+#contact #icon-1 img {
+    padding-right: 40px;
+}
+
+#contact #icon-3 img {
+    padding-left: 40px;
+}
+
+/*** FOOTER ***/
+footer {
+    clear: both;
+    padding-top: 50px;
+    text-align: center;
+}
