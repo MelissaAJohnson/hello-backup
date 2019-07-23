@@ -4,6 +4,10 @@ body {
     width: 100%;
 }
 
+a {
+    color:  #999966;
+}
+
 /*** GRID ***/
 .full-width {
     width: 100%;
@@ -49,7 +53,7 @@ nav ul li a {
     font-size: 18px;
     text-transform: lowercase;
     text-decoration: none;
-    padding-right: 40px;
+    padding-right: 45px;
 }
 
 header img {
@@ -60,11 +64,10 @@ header h2 {
     clear: both;
     color: white;
     font-family: 'Source Code Pro', monospace;
-    font-size: 48px;
+    font-size: 72px;
     position: absolute;
     top: 350px;
     left: 100px;
-    width: 600px;
 }
 
 header h2 span {
@@ -73,7 +76,7 @@ header h2 span {
 
 /*** MAIN ***/
 main {
-    padding: 0 100px;
+    padding-top: 50px;
 }
 
 main h1 {
@@ -84,14 +87,40 @@ main h1 {
 }
 
 /*** PORTFOLIO ***/
+#portfolio {
+    clear: both;
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
 #portfolio img {
     height: 350px;
     width: 550px;
     padding-bottom: 50px;
+    display: block;
+    margin-right: auto;
+}
+
+#portfolio h2 {
+    padding: 0 50px;
+}
+
+#portfolio h3 {
+    padding: 0 50px;
+}
+
+#portfolio p {
+    padding: 0 50px;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 #project-1 #project-3 {
     text-align: left;
+}
+
+#project-1 {
+    margin-left: 100px;
 }
 
 #project-2 {
@@ -99,28 +128,25 @@ main h1 {
     text-align: right;
 }
 
-#portfolio h2 {
-    padding-left: 50px;
+#project-2 img {
+    padding-left: 100px;
 }
 
-#portfolio h3 {
-    padding-left: 50px;
-}
-
-#portfolio p {
-    padding-left: 50px;
-    font-size: 18px;
-    line-height: 24px;
+#project-3 {
+    margin-left: 100px;
 }
 
 /*** ABOUT ***/
 #about {
     clear: both;
     background-image: url("../img/about-me.png");
+    background-size: cover;
     height: 550px;
 }
 
 #about p {
+    font-size: 18px;
+    line-height: 24px;
     padding: 0 100px;
     width: 600px;
 }
