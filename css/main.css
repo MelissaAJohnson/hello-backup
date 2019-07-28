@@ -1,7 +1,6 @@
 /*** BASE STYLES ***/
 body {
     background-color: rgba(255, 204, 102, .2);
-    width: 100%;
 }
 
 a {
@@ -10,23 +9,23 @@ a {
 
 /*** GRID ***/
 .full-width {
-    width: 100%;
+    width: 1200px;
 }
 
 .half-width {
-    width: 50%;
+    width: 600px;
     float: left;
 }
 
 .third-width {
-    width: 33%;
+    width: 400px;
     float: left;
 }
 
 /*** HEADER ***/
 header {
     font-family: 'Roboto', sans-serif;
-    height: 800px;
+    /* height: 800px; */
 }
 
 header h1 {
@@ -75,13 +74,10 @@ header h2 span {
 }
 
 /*** MAIN ***/
-main {
-    padding-top: 50px;
-}
-
 main h1 {
     color: #999966;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
     padding: 50px 0;
     text-align: center;
 }
@@ -89,7 +85,6 @@ main h1 {
 /*** PORTFOLIO ***/
 #portfolio {
     clear: both;
-    padding-top: 50px;
     padding-right: 200px;
 }
 
@@ -98,7 +93,6 @@ main h1 {
     width: 550px;
     padding-bottom: 50px;
     display: block;
-    margin-right: auto;
 }
 
 #portfolio h2 {
@@ -119,21 +113,13 @@ main h1 {
     text-align: left;
 }
 
-#project-1 {
-    margin-left: 100px;
-}
-
 #project-2 {
     clear: both;
     text-align: right;
 }
 
 #project-2 img {
-    padding-left: 100px;
-}
-
-#project-3 {
-    margin-left: 100px;
+    padding-left: 50px;
 }
 
 /*** ABOUT ***/
